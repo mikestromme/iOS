@@ -1,0 +1,34 @@
+http://stackoverflow.com/questions/11851026/iphone-dev-using-plist-to-store-questions
+
+NSArray *categories = [NSArray arrayWithContentsOfFile:@"questions.plist"];
+
+for (NSArray *pair in categories)
+{
+    NSString *q = [pair objectAtIndex:0];
+    NSString *a = [pair objectAtIndex:1];
+
+    // process q and a
+}
+
+
+
+
+
+http://code.tutsplus.com/tutorials/ios-sdk-build-a-facts-game-interface-creation--mobile-20764
+
+
+
+NSString* plistPath = [[NSBundle mainBundle] pathForResource:@"LevelDescription" ofType:@"plist"];
+NSMutableDictionary* dictionary = [[NSMutableDictionary alloc] initWithContentsOfFile:plistPath];
+ 
+  if ([dictionary objectForKey:@"Questions" ] != nil ){
+    NSMutableArray *array = [dictionary objectForKey:@"Questions"];
+ 
+    for(int i = 0; i < [array count]; i++){
+      NSMutableDictionary *questions = [array objectAtIndex:i];
+      NSLog(@"ID %@", [questions objectForKey:@"id"]);
+      NSLog(@"%@", [questions objectForKey:@"statement"]);
+      NSLog(@"%@", [questions objectForKey:@"isCorrect"]);
+      NSLog(@"%@", [questions objectForKey:@"additionalInfo"]);
+      }
+    }

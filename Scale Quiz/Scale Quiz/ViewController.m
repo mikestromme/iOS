@@ -74,13 +74,10 @@
 // show question
 - (IBAction)showQuestion:(UIButton *)sender
 {
-    //NSString *newText = [[NSString alloc] initWithFormat:
-                         //@"%@", [questions objectAtIndex:random()%[questions count]]];
     
-    //currentQuestionIndex = [questions objectAtIndex:random()%[questions count]];
-    
-    //NSNumber* mapXNum = [templateObject valueForKey:@"questions"];
-    //int mapX = [mapXNum intValue];
+    // TODO: implement the randomizer below - it was tried but the answers didn't follow the random questions
+    //int numberOfQuestions = [questions count];
+    //int currentQuestion = arc4random() % numberOfQuestions;
     
     // Step to the next question
     currentQuestionIndex++;
@@ -106,17 +103,6 @@
     [answerField setText:@""];
 }
 
-/*
-- (IBAction)showAnswer:(UIButton *)sender
-
-{
-    // What is the answer to the current question
-    NSString *answer = [answers objectAtIndex:currentQuestionIndex];
-    
-    // Display it in the answer field
-    [answerField setText:answer];
-}
-*/
 
 - (IBAction)showResult:(UIButton *)sender
 {
@@ -126,6 +112,7 @@
     
     NSString *selection = [sender titleForState:UIControlStateNormal];
     //NSLog (@"Digit pressed = %@", selection);
+    
     
     //What is the answer to the current question
     NSString *answer = [answers objectAtIndex:currentQuestionIndex];
@@ -141,6 +128,19 @@
         answerField.textColor = [UIColor redColor];
         [answerField setText:@"Incorrect, try again."];
     };
+    
+    // TODO: add animation code from stackoverflow
+    /*
+    aview.alpha = 1.0f;
+    [UIView animateWithDuration:0.5f
+                          delay:0.0f
+                        options:UIViewAnimationOptionAutoreverse
+                     animations:^ {
+                         [UIView setAnimationRepeatCount:10.0f/2.0f];
+                         aview.alpha = 0.0f;
+                     } completion:^(BOOL finished) {
+                         [aview removeFromSuperview]; 
+                     }];*/
      
 }
 

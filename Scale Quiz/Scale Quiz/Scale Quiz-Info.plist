@@ -14,6 +14,8 @@
 		<dict>
 			<key>CFBundleIconFiles</key>
 			<array>
+				<string>scale</string>
+				<string>downflow_guitar</string>
 				<string>guitar.png</string>
 			</array>
 			<key>UIPrerenderedIcon</key>

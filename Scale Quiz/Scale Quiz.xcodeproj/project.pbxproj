@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B80593718D0C3CF00297D6F /* downflow_guitar.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B80593618D0C3CF00297D6F /* downflow_guitar.png */; };
+		1B80593B18D0C60D00297D6F /* scale.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B80593A18D0C60D00297D6F /* scale.png */; };
 		1BB83BC6175FADA6004A16FF /* bg_nologo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BB83BC5175FADA6004A16FF /* bg_nologo.png */; };
 		1BD86E8B175BB48E004EAFF4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BD86E8A175BB48E004EAFF4 /* UIKit.framework */; };
 		1BD86E8D175BB48E004EAFF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BD86E8C175BB48E004EAFF4 /* Foundation.framework */; };
@@ -23,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B80593618D0C3CF00297D6F /* downflow_guitar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = downflow_guitar.png; sourceTree = "<group>"; };
+		1B80593A18D0C60D00297D6F /* scale.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scale.png; sourceTree = "<group>"; };
 		1BB83BC5175FADA6004A16FF /* bg_nologo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_nologo.png; sourceTree = "<group>"; };
 		1BD86E87175BB48E004EAFF4 /* Scale Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Scale Quiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BD86E8A175BB48E004EAFF4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -100,6 +104,8 @@
 		1BD86E91175BB48E004EAFF4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1B80593A18D0C60D00297D6F /* scale.png */,
+				1B80593618D0C3CF00297D6F /* downflow_guitar.png */,
 				1BB83BC5175FADA6004A16FF /* bg_nologo.png */,
 				1BD86EAD175BB4A8004EAFF4 /* guitar.png */,
 				1BD86E92175BB48E004EAFF4 /* Scale Quiz-Info.plist */,
@@ -165,6 +171,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BD86E95175BB48E004EAFF4 /* InfoPlist.strings in Resources */,
+				1B80593B18D0C60D00297D6F /* scale.png in Resources */,
+				1B80593718D0C3CF00297D6F /* downflow_guitar.png in Resources */,
 				1BD86E9D175BB48F004EAFF4 /* Default.png in Resources */,
 				1BD86E9F175BB48F004EAFF4 /* Default@2x.png in Resources */,
 				1BD86EA1175BB48F004EAFF4 /* Default-568h@2x.png in Resources */,
@@ -272,6 +280,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Scale Quiz/Scale Quiz-Prefix.pch";
 				INFOPLIST_FILE = "Scale Quiz/Scale Quiz-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -283,6 +292,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Scale Quiz/Scale Quiz-Prefix.pch";
 				INFOPLIST_FILE = "Scale Quiz/Scale Quiz-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
