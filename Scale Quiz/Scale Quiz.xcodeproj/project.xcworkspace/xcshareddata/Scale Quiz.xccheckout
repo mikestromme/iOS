@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2A3395A0-5871-424E-9500-58E2F2B4F0B6</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Scale Quiz</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F6EF4CB2-318D-43CB-B1AE-2DDAFB7C1057</key>
+		<string>https://github.com/mikestromme/iOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Scale Quiz/Scale Quiz.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>91BC39BF-8F88-49A1-A44E-CA6B077FED06</key>
+		<string>../../../../iOS_old</string>
+		<key>F6EF4CB2-318D-43CB-B1AE-2DDAFB7C1057</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/mikestromme/iOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F6EF4CB2-318D-43CB-B1AE-2DDAFB7C1057</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F6EF4CB2-318D-43CB-B1AE-2DDAFB7C1057</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOS</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>91BC39BF-8F88-49A1-A44E-CA6B077FED06</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOS_old</string>
+		</dict>
+	</array>
+</dict>
+</plist>
