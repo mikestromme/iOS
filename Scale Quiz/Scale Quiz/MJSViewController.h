@@ -10,4 +10,19 @@
 
 @interface MJSViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UILabel *lblQuestion;
+@property (strong, nonatomic) IBOutlet UILabel *lblResult;
+
+@property (strong, nonatomic) NSMutableDictionary *keys;
+
+{
+int currentQuestionIndex;
+
+//The model objects
+NSMutableArray *questions;
+NSMutableArray *answers;
+
+}
+
+
 @end

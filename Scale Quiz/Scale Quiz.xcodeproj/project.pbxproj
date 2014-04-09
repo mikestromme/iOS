@@ -21,6 +21,9 @@
 		1B69312418D8CF6E004E6A4C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B69310618D8CF6E004E6A4C /* UIKit.framework */; };
 		1B69312C18D8CF6E004E6A4C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1B69312A18D8CF6E004E6A4C /* InfoPlist.strings */; };
 		1B69312E18D8CF6E004E6A4C /* Scale_QuizTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B69312D18D8CF6E004E6A4C /* Scale_QuizTests.m */; };
+		1B69313818D8D580004E6A4C /* GibsonLesPaul--Guitar.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B69313718D8D580004E6A4C /* GibsonLesPaul--Guitar.png */; };
+		1B69313A18D8DE37004E6A4C /* C-Major-Solfege.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B69313918D8DE37004E6A4C /* C-Major-Solfege.png */; };
+		1B938BD618F315F000840EB1 /* MJSData.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B938BD518F315F000840EB1 /* MJSData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,10 @@
 		1B69312918D8CF6E004E6A4C /* Scale QuizTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Scale QuizTests-Info.plist"; sourceTree = "<group>"; };
 		1B69312B18D8CF6E004E6A4C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1B69312D18D8CF6E004E6A4C /* Scale_QuizTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Scale_QuizTests.m; sourceTree = "<group>"; };
+		1B69313718D8D580004E6A4C /* GibsonLesPaul--Guitar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GibsonLesPaul--Guitar.png"; sourceTree = "<group>"; };
+		1B69313918D8DE37004E6A4C /* C-Major-Solfege.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "C-Major-Solfege.png"; sourceTree = "<group>"; };
+		1B938BD418F315F000840EB1 /* MJSData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJSData.h; sourceTree = "<group>"; };
+		1B938BD518F315F000840EB1 /* MJSData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJSData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +124,8 @@
 				1B69311418D8CF6E004E6A4C /* Main.storyboard */,
 				1B69311718D8CF6E004E6A4C /* MJSViewController.h */,
 				1B69311818D8CF6E004E6A4C /* MJSViewController.m */,
+				1B938BD418F315F000840EB1 /* MJSData.h */,
+				1B938BD518F315F000840EB1 /* MJSData.m */,
 				1B69311A18D8CF6E004E6A4C /* Images.xcassets */,
 				1B69310918D8CF6E004E6A4C /* Supporting Files */,
 			);
@@ -126,6 +135,8 @@
 		1B69310918D8CF6E004E6A4C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1B69313918D8DE37004E6A4C /* C-Major-Solfege.png */,
+				1B69313718D8D580004E6A4C /* GibsonLesPaul--Guitar.png */,
 				1B69310A18D8CF6E004E6A4C /* Scale Quiz-Info.plist */,
 				1B69310B18D8CF6E004E6A4C /* InfoPlist.strings */,
 				1B69310E18D8CF6E004E6A4C /* main.m */,
@@ -230,7 +241,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B69311B18D8CF6E004E6A4C /* Images.xcassets in Resources */,
+				1B69313A18D8DE37004E6A4C /* C-Major-Solfege.png in Resources */,
 				1B69310D18D8CF6E004E6A4C /* InfoPlist.strings in Resources */,
+				1B69313818D8D580004E6A4C /* GibsonLesPaul--Guitar.png in Resources */,
 				1B69311618D8CF6E004E6A4C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B938BD618F315F000840EB1 /* MJSData.m in Sources */,
 				1B69310F18D8CF6E004E6A4C /* main.m in Sources */,
 				1B69311918D8CF6E004E6A4C /* MJSViewController.m in Sources */,
 				1B69311318D8CF6E004E6A4C /* MJSAppDelegate.m in Sources */,
@@ -375,7 +389,7 @@
 		1B69313218D8CF6E004E6A4C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Scale Quiz/Scale Quiz-Prefix.pch";
@@ -388,7 +402,7 @@
 		1B69313318D8CF6E004E6A4C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Scale Quiz/Scale Quiz-Prefix.pch";
@@ -457,6 +471,7 @@
 				1B69313318D8CF6E004E6A4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1B69313418D8CF6E004E6A4C /* Build configuration list for PBXNativeTarget "Scale QuizTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +480,7 @@
 				1B69313618D8CF6E004E6A4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
