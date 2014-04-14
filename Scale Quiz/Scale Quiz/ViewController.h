@@ -8,7 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+#define PLANET_NAME @"Planet Name"
+
 @interface ViewController : UIViewController
+
 
 {
     int currentQuestionIndex;
@@ -22,7 +25,11 @@
     IBOutlet UILabel *answerField;
     //IBOutlet UILabel *resultField;
     
+    
+    
 }
+
+@property (strong, nonatomic) NSArray *keys;
 
 - (IBAction)showQuestion:(id)sender;
 //- (IBAction)showAnswer:(id)sender;

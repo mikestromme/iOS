@@ -7,9 +7,12 @@
 //
 
 #import "ViewController.h"
+#import "KeyData.h"
 
 
 @implementation ViewController
+
+
 
 // setup data model object
 -(id) initWithNibName:( NSString *) nibNameOrNil bundle:( NSBundle *) nibBundleOrNil
@@ -17,6 +20,8 @@
     // Call the init method implemented by the superclass
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if(self) {
+        
+        
         // Create two arrays and make the pointers point to them
         questions = [[NSMutableArray alloc] init];
         answers = [[NSMutableArray alloc] init];
@@ -63,12 +68,25 @@
         
         [questions addObject:@"What is the PMS of G Lydian"];
         [answers addObject:@"D"];
+        
+        
+        
+        NSLog(@"%@", self.keys);
+        
+
+    
+    
+        
     }
     
     // Return the address of the new object
     return self;
     
+
+    
 }
+
+
 
 
 // show question
@@ -98,6 +116,9 @@
         
     // Log the string to the console
     NSLog(@"displaying question: %@", question);
+    
+    NSLog(@"%@",questions);
+    NSLog(@"%@",answers);
     
     // Display the string in the question field
     [questionField setText:question];
@@ -143,6 +164,8 @@
     };
      
 }
+
+
 
 
 @end

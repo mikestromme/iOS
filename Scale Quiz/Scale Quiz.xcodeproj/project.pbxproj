@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1B046C2B18F4D0AA001927E7 /* GibsonLesPaul--Guitar.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B046C2A18F4D0AA001927E7 /* GibsonLesPaul--Guitar.png */; };
 		1B046C2D18F4D96B001927E7 /* C-Major-Solfege.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B046C2C18F4D96B001927E7 /* C-Major-Solfege.png */; };
+		1B7822F918FC57AF00246153 /* KeyData.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7822F818FC57AF00246153 /* KeyData.m */; };
 		1BB83BC6175FADA6004A16FF /* bg_nologo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BB83BC5175FADA6004A16FF /* bg_nologo.png */; };
 		1BD86E8B175BB48E004EAFF4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BD86E8A175BB48E004EAFF4 /* UIKit.framework */; };
 		1BD86E8D175BB48E004EAFF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BD86E8C175BB48E004EAFF4 /* Foundation.framework */; };
@@ -20,13 +21,14 @@
 		1BD86E9F175BB48F004EAFF4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BD86E9E175BB48F004EAFF4 /* Default@2x.png */; };
 		1BD86EA1175BB48F004EAFF4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BD86EA0175BB48F004EAFF4 /* Default-568h@2x.png */; };
 		1BD86EA4175BB48F004EAFF4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD86EA3175BB48F004EAFF4 /* ViewController.m */; };
-		1BD86EAE175BB4A8004EAFF4 /* guitar.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BD86EAD175BB4A8004EAFF4 /* guitar.png */; };
 		1BD86EB1175BB549004EAFF4 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BD86EAF175BB549004EAFF4 /* ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1B046C2A18F4D0AA001927E7 /* GibsonLesPaul--Guitar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GibsonLesPaul--Guitar.png"; sourceTree = "<group>"; };
 		1B046C2C18F4D96B001927E7 /* C-Major-Solfege.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "C-Major-Solfege.png"; sourceTree = "<group>"; };
+		1B7822F718FC57AF00246153 /* KeyData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyData.h; sourceTree = "<group>"; };
+		1B7822F818FC57AF00246153 /* KeyData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyData.m; sourceTree = "<group>"; };
 		1BB83BC5175FADA6004A16FF /* bg_nologo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_nologo.png; sourceTree = "<group>"; };
 		1BD86E87175BB48E004EAFF4 /* Scale Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Scale Quiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BD86E8A175BB48E004EAFF4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -43,7 +45,6 @@
 		1BD86EA0175BB48F004EAFF4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		1BD86EA2175BB48F004EAFF4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		1BD86EA3175BB48F004EAFF4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		1BD86EAD175BB4A8004EAFF4 /* guitar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = guitar.png; path = ../guitar.png; sourceTree = "<group>"; };
 		1BD86EB0175BB549004EAFF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -61,6 +62,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B7822F618FC578100246153 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1B7822F718FC57AF00246153 /* KeyData.h */,
+				1B7822F818FC57AF00246153 /* KeyData.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		1BD86E7E175BB48E004EAFF4 = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +106,7 @@
 				1BD86E9A175BB48F004EAFF4 /* AppDelegate.m */,
 				1BD86EA2175BB48F004EAFF4 /* ViewController.h */,
 				1BD86EA3175BB48F004EAFF4 /* ViewController.m */,
+				1B7822F618FC578100246153 /* Model */,
 				1BD86E91175BB48E004EAFF4 /* Supporting Files */,
 			);
 			path = "Scale Quiz";
@@ -107,7 +118,6 @@
 				1B046C2C18F4D96B001927E7 /* C-Major-Solfege.png */,
 				1B046C2A18F4D0AA001927E7 /* GibsonLesPaul--Guitar.png */,
 				1BB83BC5175FADA6004A16FF /* bg_nologo.png */,
-				1BD86EAD175BB4A8004EAFF4 /* guitar.png */,
 				1BD86E92175BB48E004EAFF4 /* Scale Quiz-Info.plist */,
 				1BD86E93175BB48E004EAFF4 /* InfoPlist.strings */,
 				1BD86E96175BB48F004EAFF4 /* main.m */,
@@ -176,7 +186,6 @@
 				1B046C2B18F4D0AA001927E7 /* GibsonLesPaul--Guitar.png in Resources */,
 				1BD86E9F175BB48F004EAFF4 /* Default@2x.png in Resources */,
 				1BD86EA1175BB48F004EAFF4 /* Default-568h@2x.png in Resources */,
-				1BD86EAE175BB4A8004EAFF4 /* guitar.png in Resources */,
 				1BD86EB1175BB549004EAFF4 /* ViewController.xib in Resources */,
 				1BB83BC6175FADA6004A16FF /* bg_nologo.png in Resources */,
 			);
@@ -192,6 +201,7 @@
 				1BD86E97175BB48F004EAFF4 /* main.m in Sources */,
 				1BD86E9B175BB48F004EAFF4 /* AppDelegate.m in Sources */,
 				1BD86EA4175BB48F004EAFF4 /* ViewController.m in Sources */,
+				1B7822F918FC57AF00246153 /* KeyData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
