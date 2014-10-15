@@ -24,6 +24,7 @@
 		1BDAF8261942677100A87F29 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BDAF8011942677100A87F29 /* UIKit.framework */; };
 		1BDAF82E1942677100A87F29 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1BDAF82C1942677100A87F29 /* InfoPlist.strings */; };
 		1BDAF8301942677100A87F29 /* CookieCrunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDAF82F1942677100A87F29 /* CookieCrunchTests.m */; };
+		1BDAF83A1942682000A87F29 /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 1BDAF8391942682000A87F29 /* Sprites.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		1BDAF82B1942677100A87F29 /* CookieCrunchTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CookieCrunchTests-Info.plist"; sourceTree = "<group>"; };
 		1BDAF82D1942677100A87F29 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1BDAF82F1942677100A87F29 /* CookieCrunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CookieCrunchTests.m; sourceTree = "<group>"; };
+		1BDAF8391942682000A87F29 /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = Sprites.atlas; path = ../Sprites.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 				1BDAF8181942677100A87F29 /* RWTMyScene.m */,
 				1BDAF81A1942677100A87F29 /* Spaceship.png */,
 				1BDAF81C1942677100A87F29 /* Images.xcassets */,
+				1BDAF8391942682000A87F29 /* Sprites.atlas */,
 				1BDAF8061942677100A87F29 /* Supporting Files */,
 			);
 			path = CookieCrunch;
@@ -245,6 +248,7 @@
 				1BDAF81D1942677100A87F29 /* Images.xcassets in Resources */,
 				1BDAF81B1942677100A87F29 /* Spaceship.png in Resources */,
 				1BDAF8131942677100A87F29 /* Main.storyboard in Resources */,
+				1BDAF83A1942682000A87F29 /* Sprites.atlas in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
