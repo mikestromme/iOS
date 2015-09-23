@@ -10,29 +10,29 @@
 	<string>Scale Quiz</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>E6529947-355C-408D-9A52-BD9C3A95D9AB</key>
+		<key>CDCD6D980AEE26CAAA4DD41B98D066E4C61DD0CB</key>
 		<string>https://github.com/mikestromme/iOS.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Scale Quiz/Scale Quiz.xcodeproj/project.xcworkspace</string>
+	<string>Scale Quiz/Scale Quiz.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>E6529947-355C-408D-9A52-BD9C3A95D9AB</key>
+		<key>CDCD6D980AEE26CAAA4DD41B98D066E4C61DD0CB</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/mikestromme/iOS.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>E6529947-355C-408D-9A52-BD9C3A95D9AB</string>
+	<string>CDCD6D980AEE26CAAA4DD41B98D066E4C61DD0CB</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>E6529947-355C-408D-9A52-BD9C3A95D9AB</string>
+			<string>CDCD6D980AEE26CAAA4DD41B98D066E4C61DD0CB</string>
 			<key>IDESourceControlWCCName</key>
 			<string>iOS</string>
 		</dict>

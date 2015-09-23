@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -57,7 +57,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gcm-7F-qvG">
-                                <rect key="frame" x="117" y="217" width="139" height="33"/>
+                                <rect key="frame" x="116" y="261" width="139" height="33"/>
                                 <state key="normal" title="Start">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -86,8 +86,38 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Ship.png" translatesAutoresizingMaskIntoConstraints="NO" id="78g-XT-Q04">
                                 <rect key="frame" x="121" y="553" width="132" height="70"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="YellowMonster.png" translatesAutoresizingMaskIntoConstraints="NO" id="9eE-hb-akw">
+                                <rect key="frame" x="38" y="89" width="45" height="45"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="GreenMonser.png" translatesAutoresizingMaskIntoConstraints="NO" id="pe2-PP-3Te">
+                                <rect key="frame" x="163" y="20" width="45" height="45"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="YellowMonster.png" translatesAutoresizingMaskIntoConstraints="NO" id="0Va-46-ipE">
+                                <rect key="frame" x="280" y="89" width="45" height="45"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="YellowMonster.png" translatesAutoresizingMaskIntoConstraints="NO" id="2rb-1L-RWD">
+                                <rect key="frame" x="165" y="89" width="45" height="45"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BlueAlien.png" translatesAutoresizingMaskIntoConstraints="NO" id="8tG-Ko-eei">
+                                <rect key="frame" x="106" y="151" width="45" height="45"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BlueAlien.png" translatesAutoresizingMaskIntoConstraints="NO" id="gZA-sI-P3u">
+                                <rect key="frame" x="227" y="151" width="45" height="45"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="GreenMonser.png" translatesAutoresizingMaskIntoConstraints="NO" id="uoE-qr-IO0">
+                                <rect key="frame" x="106" y="221" width="45" height="45"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="GreenMonser.png" translatesAutoresizingMaskIntoConstraints="NO" id="yA5-DJ-fw7">
+                                <rect key="frame" x="227" y="221" width="45" height="45"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="GreenMonser.png" translatesAutoresizingMaskIntoConstraints="NO" id="Nig-ks-j1N">
+                                <rect key="frame" x="38" y="20" width="45" height="45"/>
+                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Bullet.png" translatesAutoresizingMaskIntoConstraints="NO" id="Acn-hj-PQf">
-                                <rect key="frame" x="177" y="504" width="20" height="41"/>
+                                <rect key="frame" x="262" y="626" width="20" height="41"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="GreenMonser.png" translatesAutoresizingMaskIntoConstraints="NO" id="2Zg-aD-kbN">
+                                <rect key="frame" x="280" y="20" width="45" height="45"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -97,6 +127,16 @@
                     <connections>
                         <outlet property="Bullet" destination="Acn-hj-PQf" id="r2A-TQ-LOj"/>
                         <outlet property="Exit" destination="Dbk-od-Fbg" id="894-I2-wmj"/>
+                        <outlet property="Monster1" destination="Nig-ks-j1N" id="L0X-nw-WSU"/>
+                        <outlet property="Monster10" destination="yA5-DJ-fw7" id="m1Z-t7-zJk"/>
+                        <outlet property="Monster2" destination="pe2-PP-3Te" id="75R-1z-7fl"/>
+                        <outlet property="Monster3" destination="2Zg-aD-kbN" id="rGd-DH-5s7"/>
+                        <outlet property="Monster4" destination="9eE-hb-akw" id="Frk-H8-l1O"/>
+                        <outlet property="Monster5" destination="2rb-1L-RWD" id="9Iw-cv-vxl"/>
+                        <outlet property="Monster6" destination="0Va-46-ipE" id="tGT-6L-d9k"/>
+                        <outlet property="Monster7" destination="8tG-Ko-eei" id="2kW-bP-MhY"/>
+                        <outlet property="Monster8" destination="gZA-sI-P3u" id="uWQ-tJ-t7h"/>
+                        <outlet property="Monster9" destination="uoE-qr-IO0" id="bMv-2C-iq6"/>
                         <outlet property="Ship" destination="78g-XT-Q04" id="i7x-B9-38D"/>
                         <outlet property="Shoot" destination="gbb-wx-oAe" id="v5b-x8-DrO"/>
                         <outlet property="Start" destination="gcm-7F-qvG" id="eWg-k4-8ZW"/>
@@ -108,8 +148,11 @@
         </scene>
     </scenes>
     <resources>
+        <image name="BlueAlien.png" width="200" height="200"/>
         <image name="Bullet.png" width="100" height="200"/>
+        <image name="GreenMonser.png" width="200" height="200"/>
         <image name="MenuBackground.png" width="320" height="480"/>
         <image name="Ship.png" width="200" height="200"/>
+        <image name="YellowMonster.png" width="200" height="200"/>
     </resources>
 </document>
